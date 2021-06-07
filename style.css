@@ -1,0 +1,41 @@
+body{
+	background-image: linear-gradient(to right, #cc2b5e , #753a88);
+}
+
+.grid-container {
+  display: inline-grid;
+  grid-template-columns: auto auto auto;
+  margin-top: 20px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19); 
+}
+
+#one,#two,#three,#four,#five,#six,#seven,#eight,#nine {
+  background-color: rgba(255, 255, 255, 255);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 50px;
+  cursor: pointer;
+}
+
+.SingleBlock{
+  background-position : center;
+  background-repeat : no-repeat;
+  background-size : 70px;
+}
+
+
+
+/* BELOW CSS IS NOT WRITTEN BY ME
+   THIS IS JUST TO MAKE THE UI LOOK 
+   GREAT */
+
+.button{
+
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);    
+  font-size: 200%;
+  font-family: sans-serif;
+
+ }
+
+ #result{
+  font-size:300%;
+ }
